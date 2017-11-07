@@ -8,7 +8,7 @@ import java.util.Iterator;
  */
 class Troco {
 
-    protected PapelMoeda[] papeisMoeda;
+    protected PapelMoeda[] papeisMoeda = new PapelMoeda[7];
 
     public Troco(int valor) {
         papeisMoeda = new PapelMoeda[6];
