@@ -6,7 +6,7 @@ package br.calebe.ticketmachine.exception;
  */
 public class SaldoInsuficienteException extends Exception {
 
-    public SaldoInsuficienteException(String saldo_insulficiente) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public SaldoInsuficienteException(String message) {
+        super(message);
     }
 }
